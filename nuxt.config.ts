@@ -3,6 +3,9 @@ import path from 'path';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', "nuxt-primevue", "@nuxt/content", "@nuxtjs/i18n"],
+  app: {
+    baseURL: '/marcofabbri30/'
+  },
   primevue: {
     usePrimeVue: true,
     options: {
