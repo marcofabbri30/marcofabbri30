@@ -4,7 +4,7 @@ import path from 'path';
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', "nuxt-primevue", "@nuxt/content", "@nuxtjs/i18n"],
   app: {
-    baseURL: '/marcofabbri30/ npx nuxt build --preset github_pages'
+    baseURL: '/marcofabbri30/'
   },
   primevue: {
     usePrimeVue: true,
