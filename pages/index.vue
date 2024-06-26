@@ -13,8 +13,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <article v-for="post in posts" :key="post.id" class="bg-white p-4 rounded-lg shadow-md">
               <h3 class="text-xl font-bold">{{ post.title }}</h3>
-              <p class="text-gray-700">{{ post.excerpt }}</p>
-              <NuxtLink :to="'/post/' + post.slug" class="text-blue-500 hover:underline mt-2 inline-block">Read more</NuxtLink>
+              <p class="text-gray-700">{{ post.excerpt }}</p>              
             </article>
           </div>
         </section>
