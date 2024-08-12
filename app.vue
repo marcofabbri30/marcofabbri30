@@ -1,4 +1,18 @@
-<script setup></script>
+<script setup lang="ts">
+useHead({
+  title: 'Marco Portfolio',
+  meta: [
+    { name: 'description', content: 'Marco personal portfolio. Software Engineer & Project Manager' }
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+  htmlAttrs: {
+    lang: 'en',
+  },
+  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+})
+</script>
 
 <template>
   <div>

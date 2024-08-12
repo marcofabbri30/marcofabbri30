@@ -8,7 +8,7 @@
           Scopri i nostri servizi e prodotti esclusivi.
         </p>
         <div>
-          <nuxt-link to="/about" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mr-2">
+          <nuxt-link to="/about" class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-full mr-2">
             Scopri di più
           </nuxt-link>
           <nuxt-link to="/contact" class="bg-transparent hover:bg-blue-500 text-blue-500 font-bold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full">
