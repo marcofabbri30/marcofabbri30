@@ -21,10 +21,10 @@
     </div>
   </template>
   
-<script>
+<script setup lang="ts">
 useSeoMeta({
-  title: 'Software Engineer & Project Manager | [Il Tuo Nome]',
-  ogTitle: 'Software Engineer & Project Manager | [Il Tuo Nome]',
+  title: 'Software Engineer & Project Manager | Marco Fabbri',
+  ogTitle: 'Software Engineer & Project Manager | Marco Fabbri',
   description: 'Sono un software engineer e project manager con esperienza nella gestione di progetti complessi e nello sviluppo di soluzioni software innovative.',
   ogDescription: 'Scopri il mio lavoro come software engineer e project manager. Gestisco progetti complessi e sviluppo soluzioni software all\'avanguardia per rispondere alle esigenze aziendali.',
   twitterCard: 'summary_large_image',
