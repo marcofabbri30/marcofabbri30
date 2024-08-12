@@ -6,16 +6,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     "nuxt-primevue",
     "@nuxt/content",
-    "@nuxtjs/i18n",
-    "@nuxtjs/robots",
-    "@nuxtjs/sitemap",
-    "@nuxtjs/seo"
+    "@nuxtjs/i18n"
   ],
-  site: {
-    url: 'https://marcofabbri30.github.io/marcofabbri30/',
-    name: 'Marco personal portfolio. Software Engineer & Project Manager',
-    defaultLocale: 'it',
-  },
   primevue: {
     usePrimeVue: true,
     options: {
