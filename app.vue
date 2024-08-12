@@ -2,6 +2,7 @@
 useHead({
   title: 'Marco Portfolio',
   meta: [
+    { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
     { name: 'description', content: 'Marco personal portfolio. Software Engineer & Project Manager' }
   ],
   bodyAttrs: {

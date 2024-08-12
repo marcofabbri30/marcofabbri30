@@ -21,21 +21,17 @@
     </div>
   </template>
   
-  <script>
-  export default {
-    data() {
-      return {
-        posts: [
-          { id: 1, title: "First Post", excerpt: "This is the excerpt of the first post.", slug: "first-post" },
-          { id: 2, title: "Second Post", excerpt: "This is the excerpt of the second post.", slug: "second-post" },
-          { id: 3, title: "Third Post", excerpt: "This is the excerpt of the third post.", slug: "third-post" }
-        ]
-      };
-    }
-  }
-  </script>
+<script>
+useSeoMeta({
+  title: 'Software Engineer & Project Manager | [Il Tuo Nome]',
+  ogTitle: 'Software Engineer & Project Manager | [Il Tuo Nome]',
+  description: 'Sono un software engineer e project manager con esperienza nella gestione di progetti complessi e nello sviluppo di soluzioni software innovative.',
+  ogDescription: 'Scopri il mio lavoro come software engineer e project manager. Gestisco progetti complessi e sviluppo soluzioni software all\'avanguardia per rispondere alle esigenze aziendali.',
+  twitterCard: 'summary_large_image',
+})
+</script>
   
-  <style>
-  /* Custom styles can go here if needed */
-  </style>
+<style>
+/* Custom styles can go here if needed */
+</style>
   
