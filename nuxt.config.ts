@@ -8,11 +8,13 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/i18n",
     "@nuxtjs/robots",
-    "@nuxtjs/sitemap"
+    "@nuxtjs/sitemap",
+    "@nuxtjs/seo"
   ],
   site: {
     url: 'https://marcofabbri30.github.io/marcofabbri30/',
-    name: 'Marco personal portfolio. Software Engineer & Project Manager'
+    name: 'Marco personal portfolio. Software Engineer & Project Manager',
+    defaultLocale: 'it',
   },
   primevue: {
     usePrimeVue: true,
