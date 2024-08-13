@@ -4,11 +4,11 @@
     </div>
     <div class="container mx-auto px-6">
       <header class="py-6">
-        <h1 class="text-4xl font-bold">My Blog</h1>
-        <p class="text-lg text-gray-600">Welcome to my personal blog where I share my thoughts and experiences.</p>
+        <h1 class="text-4xl font-bold">Il mio blog.</h1>
+        <p class="text-lg text-gray-600">Benvenuto nel mio blog, dove avrò spazio per mostrarti chi sono e le tecnologie che uso.</p>
       </header>
       <main class="mt-8">
-        <section>
+        <!-- <section>
           <h2 class="text-2xl font-semibold mb-4">Latest Posts</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <article v-for="post in posts" :key="post.id" class="bg-white p-4 rounded-lg shadow-md">
@@ -16,7 +16,7 @@
               <p class="text-gray-700">{{ post.excerpt }}</p>              
             </article>
           </div>
-        </section>
+        </section> -->
       </main>
     </div>
   </template>

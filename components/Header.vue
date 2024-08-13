@@ -2,12 +2,12 @@
     <header class="bg-gray-900 text-white">
       <div class="container mx-auto px-6 py-4 flex justify-between items-center">
         <div class="text-xl font-bold">
-          <nuxt-link to="/">Il Mio Sito</nuxt-link>
+          <nuxt-link to="/">Marco Fabbri</nuxt-link>
         </div>
         <div class="hidden md:flex space-x-6">
           <nuxt-link to="/" class="hover:text-gray-400">Home</nuxt-link>
-          <nuxt-link to="/chi_sono" class="hover:text-gray-400">Chi sono</nuxt-link>
-          <nuxt-link to="/services" class="hover:text-gray-400">Servizi</nuxt-link>          
+          <nuxt-link to="/chi-sono" class="hover:text-gray-400">Chi sono</nuxt-link>
+          <nuxt-link to="/servizi" class="hover:text-gray-400">Servizi</nuxt-link>          
         </div>
         <button @click="toggleMenu" class="md:hidden focus:outline-none" aria-label="menu">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
