@@ -1,6 +1,11 @@
 <template>
-    <section class="bg-custom bg-gray-900 text-white py-40 md:py-60">
-      <div class="container mx-auto px-6 md:px-12 text-center ">
+    <section class="relative  text-white py-40 md:py-60">
+    <picture>
+      <source srcset="/hero-background-xs.webp" media="(max-width: 640px)" loading="lazy">
+      <source srcset="/hero-background-mobile.webp" media="(max-width: 767px)" loading="lazy">
+      <img src="/hero-background.webp" alt="Hero Background" class="absolute inset-0 object-cover w-full h-full z-[-1]" loading="lazy">
+    </picture>
+      <div class="container mx-auto px-6 md:px-12 text-center">
         <h1 class="text-4xl font-bold leading-tight mb-4 	shadow-custom">
           Benvenuti nel mio portfolio!
         </h1>
