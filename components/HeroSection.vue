@@ -31,6 +31,12 @@
   background-size: cover;
   background-position: center;
 }
+
+@media (max-width: 767px) {
+  .bg-custom {
+    background-image: url('/hero-background-mobile.webp');
+  }
+}
 .shadow-custom {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
