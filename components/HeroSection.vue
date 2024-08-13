@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-custom bg-gray-900 text-white py-40 md:py-60">
+    <section class="bg-custom bg-gray-900 text-white py-20 md:py-60">
       <div class="container mx-auto px-6 md:px-12 text-center ">
         <h1 class="text-4xl font-bold leading-tight mb-4 	shadow-custom">
           Benvenuti nel mio portfolio!
