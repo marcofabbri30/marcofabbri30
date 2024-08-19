@@ -25,7 +25,7 @@
           </div>
           <div class="text-center">
             <a href="https://www.linkedin.com/in/marco-fabbri-7a193913b/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Seguimi sul linkdin
+              Seguimi sul Linkedin
             </a>
           </div>
         </div>

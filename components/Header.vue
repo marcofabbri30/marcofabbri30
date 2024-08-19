@@ -17,8 +17,8 @@
       </div>
       <div v-if="isMenuOpen" class="md:hidden bg-gray-800">
         <nuxt-link to="/" class="block px-4 py-2 hover:bg-gray-700">Home</nuxt-link>
-        <nuxt-link to="/chi_sono" class="block px-4 py-2 hover:bg-gray-700">Chi sono</nuxt-link>
-        <nuxt-link to="/services" class="block px-4 py-2 hover:bg-gray-700">Servizi</nuxt-link>        
+        <nuxt-link to="/chi-sono" class="block px-4 py-2 hover:bg-gray-700">Chi sono</nuxt-link>
+        <nuxt-link to="/servizi" class="block px-4 py-2 hover:bg-gray-700">Servizi</nuxt-link>        
       </div>
     </header>
   </template>
