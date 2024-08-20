@@ -8,6 +8,10 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/i18n"
   ],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' }
+  },
   primevue: {
     usePrimeVue: true,
     options: {

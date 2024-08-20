@@ -1,4 +1,5 @@
 <template>
+  <div>
     <div>
       <HeroSection></HeroSection>
     </div>
@@ -19,6 +20,8 @@
         </section> -->
       </main>
     </div>
+  </div>
+    
   </template>
   
 <script setup lang="ts">
@@ -28,6 +31,11 @@ useSeoMeta({
   description: 'Sono un software engineer e application manager con esperienza nella gestione di progetti complessi e nello sviluppo di soluzioni software innovative.',
   ogDescription: 'Scopri il mio lavoro come software engineer e project manager. Gestisco progetti complessi e sviluppo soluzioni software all\'avanguardia per rispondere alle esigenze aziendali.',
   twitterCard: 'summary_large_image',
+})
+definePageMeta({
+  pageTransition: {
+    name: ''
+  }
 })
 </script>
   
