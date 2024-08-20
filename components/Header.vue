@@ -8,6 +8,7 @@
           <nuxt-link to="/" class="hover:text-gray-400">Home</nuxt-link>
           <nuxt-link to="/chi-sono" class="hover:text-gray-400">Chi sono</nuxt-link>
           <nuxt-link to="/servizi" class="hover:text-gray-400">Servizi</nuxt-link>          
+          <nuxt-link to="/timeline" class="hover:text-gray-400">Timeline</nuxt-link>
         </div>
         <button @click="toggleMenu" class="md:hidden focus:outline-none" aria-label="menu">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +19,8 @@
       <div v-if="isMenuOpen" class="md:hidden bg-gray-800">
         <nuxt-link to="/" class="block px-4 py-2 hover:bg-gray-700">Home</nuxt-link>
         <nuxt-link to="/chi-sono" class="block px-4 py-2 hover:bg-gray-700">Chi sono</nuxt-link>
-        <nuxt-link to="/servizi" class="block px-4 py-2 hover:bg-gray-700">Servizi</nuxt-link>        
+        <nuxt-link to="/servizi" class="block px-4 py-2 hover:bg-gray-700">Servizi</nuxt-link>  
+        <nuxt-link to="/timeline" class="block px-4 py-2 hover:bg-gray-700">Timeline</nuxt-link>      
       </div>
     </header>
   </template>
