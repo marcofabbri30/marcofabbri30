@@ -32,11 +32,6 @@ useSeoMeta({
   ogDescription: 'Scopri il mio lavoro come software engineer e project manager. Gestisco progetti complessi e sviluppo soluzioni software all\'avanguardia per rispondere alle esigenze aziendali.',
   twitterCard: 'summary_large_image',
 })
-definePageMeta({
-  pageTransition: {
-    name: ''
-  }
-})
 </script>
   
 <style>
