@@ -25,6 +25,8 @@ useHead({
 </template>
 
 <style>
+@import "primeicons/primeicons.css";
+
 @import url("~/assets/css/base.css");
 
 

@@ -24,8 +24,8 @@
           </p>
         </div>
         <div class="text-center">
-          <a href="https://www.linkedin.com/in/marco-fabbri-7a193913b/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-            Seguimi sul Linkedin
+          <a href="https://www.linkedin.com/in/marco-fabbri-7a193913b/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-5 rounded-full">
+            <i class="pi pi-linkedin me-3"></i>Seguimi sul Linkedin
           </a>
         </div>
       </div>
