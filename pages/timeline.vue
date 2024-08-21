@@ -38,8 +38,8 @@ const events = ref([
     { job: 'Software Engineer & Application Manager',company: 'Vanguard - Gruppo Global Sistemi', date: 'gennaio 2021 - marzo 2021', icon: 'pi pi-briefcase', color: '#9C27B0'},
     { job: 'Software Engineer & IT Consultant',company: 'Onit Group', date: 'novembre 2017 - dicembre 2020', icon: 'pi pi-briefcase', color: '#9C27B0'},
     { job: 'IT Consultant & Application Specialist',company: 'Engineering Ingegneria Informatica', date: 'maggio 2017 - novembre 2017', icon: 'pi pi-briefcase', color: '#9C27B0'},
-    { job: 'Laurea Magistrale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2014 - 2017', icon: 'pi pi-book', color: '#9C27B0'},
-    { job: 'Laurea Triennale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2010 - 2014', icon: 'pi pi-book', color: '#9C27B0'},
+    { job: 'Laurea Magistrale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2014 - 2017', icon: 'pi pi-book', color: '#d41317'},
+    { job: 'Laurea Triennale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2010 - 2014', icon: 'pi pi-book', color: '#d41317'},
 ]);
 </script>
 
