@@ -9,7 +9,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Card style="max-width: 25rem; overflow: hidden" class="hover:scale-110 transition-all mx-auto">
                 <template #header>
-                    <img alt="user header" src="/public/servizi/1.webp" />
+                    <img alt="user header" src="/public/servizi/1.webp" width="400" height="266"/>
                 </template>
                 <template #title>Project Management</template>
                 <template #content>
@@ -21,7 +21,7 @@
             </Card>
             <Card style="max-width: 25rem; overflow: hidden" class="hover:scale-110 transition-all mx-auto">
                 <template #header>
-                    <img alt="user header" src="/public/servizi/1.webp" />
+                    <img alt="user header" src="/public/servizi/1.webp" width="400" height="266"/>
                 </template>
                 <template #title>Consulenza IT</template>
                 <template #content>
@@ -33,7 +33,7 @@
             </Card>
             <Card style="max-width: 25rem; overflow: hidden" class="hover:scale-110 transition-all mx-auto">
                 <template #header>
-                    <img alt="user header" src="/public/servizi/1.webp" />
+                    <img alt="user header" src="/public/servizi/1.webp" width="400" height="266"/>
                 </template>
                 <template #title>Sviluppo software</template>
                 <template #content>

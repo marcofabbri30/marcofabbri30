@@ -27,9 +27,6 @@ export default defineNuxtConfig({
         include: ['Ripple', 'Tooltip']
     }
   },
-
-  css: ['animate.css'],
-
   i18n: {
     vueI18n: './i18n.config.ts', // if you are using custom path, default
     strategy: 'prefix_and_default',

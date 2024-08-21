@@ -13,10 +13,10 @@
           Scopri le mie attività e i miei progetti.
         </p>
         <div>
-          <nuxt-link to="/chi-sono" class="bg-gray-900 hover:bg-gray-300 text-white hover:text-gray-900 font-bold py-3 px-5 rounded-full mr-2 animate__animated animate__fadeInLeft">
+          <nuxt-link to="/chi-sono" class="bg-gray-900 hover:bg-gray-300 text-white hover:text-gray-900 font-bold py-3 px-5 rounded-full mr-2">
             Scopri di più
           </nuxt-link>
-          <nuxt-link to="/contact" class="bg-gray-900 hover:bg-gray-300 text-white hover:text-gray-900 font-bold py-3 px-5 rounded-full mr-2 animate__animated animate__fadeInRight">
+          <nuxt-link to="/contact" class="bg-gray-900 hover:bg-gray-300 text-white hover:text-gray-900 font-bold py-3 px-5 rounded-full mr-2">
             Contattaci
           </nuxt-link>
         </div>
