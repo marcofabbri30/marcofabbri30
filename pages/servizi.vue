@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mx-auto px-6 md:px-12 py-10">
+    <div class="container mx-auto mx-auto px-2 md:px-12 py-10">
         <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-8 text-center">
             Cosa posso fare per te
         </h1>
@@ -7,7 +7,7 @@
             Gestione efficiente dei progetti IT: dal concept alla realizzazione
         </h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Card style="width: 25rem; overflow: hidden" class="hover:scale-110 transition-all mx-auto">
+            <Card style="max-width: 25rem; overflow: hidden" class="hover:scale-110 transition-all mx-auto">
                 <template #header>
                     <img alt="user header" src="/public/servizi/1.webp" />
                 </template>
@@ -19,7 +19,7 @@
                     </p>
                 </template>
             </Card>
-            <Card style="width: 25rem; overflow: hidden" class="hover:scale-110 transition-all">
+            <Card style="max-width: 25rem; overflow: hidden" class="hover:scale-110 transition-all mx-auto">
                 <template #header>
                     <img alt="user header" src="/public/servizi/1.webp" />
                 </template>
@@ -31,7 +31,7 @@
                     </p>
                 </template>
             </Card>
-            <Card style="width: 25rem; overflow: hidden" class="hover:scale-110 transition-all">
+            <Card style="max-width: 25rem; overflow: hidden" class="hover:scale-110 transition-all mx-auto">
                 <template #header>
                     <img alt="user header" src="/public/servizi/1.webp" />
                 </template>
