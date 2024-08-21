@@ -15,16 +15,14 @@
             <template #content="slotProps">
                 <Card class="mt-3">
                     <template #title>
-                        {{ slotProps.item.status }}
+                        <h2 class="text-2xl m-0 p-0">{{ slotProps.item.job }}</h2>                        
                     </template>
                     <template #subtitle>
-                        {{ slotProps.item.date }}
+                        <h3 class="text-xl mb-2">{{ slotProps.item.company }}</h3>
+                        <p>{{ slotProps.item.date }}</p>
                     </template>
                     <template #content>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
-                            neque quas!
-                        </p>                    
+                        <p></p>
                     </template>
                 </Card>
             </template>
@@ -36,7 +34,12 @@
 import { ref } from "vue";
 
 const events = ref([
-    { status: 'Software Engineer & Application Manager', date: 'aprile 2021 - presente', icon: 'pi pi-briefcase', color: '#9C27B0'},
+    { job: 'Software Engineer & Application Manager',company: 'poltronesofà', date: 'aprile 2021 - presente', icon: 'pi pi-briefcase', color: '#9C27B0'},
+    { job: 'Software Engineer & Application Manager',company: 'Vanguard - Gruppo Global Sistemi', date: 'gennaio 2021 - marzo 2021', icon: 'pi pi-briefcase', color: '#9C27B0'},
+    { job: 'Software Engineer & IT Consultant',company: 'Onit Group', date: 'novembre 2017 - dicembre 2020', icon: 'pi pi-briefcase', color: '#9C27B0'},
+    { job: 'IT Consultant & Application Specialist',company: 'Engineering Ingegneria Informatica', date: 'maggio 2017 - novembre 2017', icon: 'pi pi-briefcase', color: '#9C27B0'},
+    { job: 'Laurea Magistrale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2014 - 2017', icon: 'pi pi-book', color: '#9C27B0'},
+    { job: 'Laurea Triennale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2010 - 2014', icon: 'pi pi-book', color: '#9C27B0'},
 ]);
 </script>
 
