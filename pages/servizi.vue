@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mx-auto px-2 md:px-12 py-10">
+    <div class="container mx-auto mx-auto px-2 md:px-12 py-5 md:py-10">
         <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-8 text-center">
             Cosa posso fare per te
         </h1>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-2 py-6" style="max-width: 800px;">
+    <div class="container mx-auto px-2 md:px-12 py-5 md:py-10" style="max-width: 800px;">
         <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 text-center">
             La mia esperienza lavorativa
         </h1>
