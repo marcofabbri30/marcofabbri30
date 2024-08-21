@@ -38,7 +38,7 @@ definePageMeta({
   pageTransition: {
     name: 'page'
   }
-})
+}) 
 </script>
 
 <style scoped>
