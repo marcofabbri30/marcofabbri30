@@ -1,5 +1,8 @@
 <template>
-    <div class="container mx-auto px-2 py-2" style="max-width: 800px;">    
+    <div class="container mx-auto px-2 py-6" style="max-width: 800px;">
+        <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 text-center">
+            La mia esperienza lavorativa
+        </h1>
         <Timeline :value="events" align="left" class="customized-timeline"
             :pt="{
                 opposite:{
@@ -31,7 +34,16 @@
 </template>
 
 <script setup lang="ts">
+
 import { ref } from "vue";
+
+useSeoMeta({
+  title: 'Marco Fabbri - Esperienza lavorativa',
+  ogTitle: 'Marco Fabbri - Esperienza lavorativa',
+  description: 'Project manager esperto con anni di esperienza nella gestione di progetti IT complessi, specializzato in pianificazione strategica, ottimizzazione dei processi e implementazione di soluzioni tecnologiche innovative per garantire risultati di successo e efficienza operativa',
+  ogDescription: 'Project manager esperto con anni di esperienza nella gestione di progetti IT complessi, specializzato in pianificazione strategica, ottimizzazione dei processi e implementazione di soluzioni tecnologiche innovative per garantire risultati di successo e efficienza operativa',
+  twitterCard: 'summary_large_image',
+})
 
 const events = ref([
     { job: 'Software Engineer & Application Manager',company: 'poltronesofà', date: 'aprile 2021 - presente', icon: 'pi pi-briefcase', color: '#9C27B0'},

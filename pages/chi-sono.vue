@@ -1,12 +1,12 @@
 <template>
-  <section class="bg-white text-gray-900 py-20">
+  <section class="text-gray-900 py-10">
     <div class="container mx-auto px-6 md:px-12">
       <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-8 text-center">
         Chi sono
       </h1>
       <div class="space-y-12">
         <div>
-          <h2 class="text-2xl font-semibold mb-4">La Nostra Storia</h2>
+          <h2 class="text-2xl font-semibold mb-4">La Mia Storia</h2>
           <p class="text-lg">
             Mi chiamo Marco e sono un professionista IT con anni di esperienza nel settore. La mia missione è fornire soluzioni tecnologiche innovative che aiutino le aziende a raggiungere i loro obiettivi e a migliorare l'efficienza operativa.
           </p>
@@ -34,9 +34,12 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  pageTransition: {
-    name: 'page'
-  }
-}) 
+useSeoMeta({
+  title: 'Marco Fabbri - Chi sono',
+  ogTitle: 'Marco Fabbri - Chi sono',
+  description: 'Chi sono e quali servizi tecnologici posso offrire. Ti racconto la mia storia, le mie competenze e i miei valori',
+  ogDescription: 'Chi sono e quali servizi tecnologici posso offrire. Ti racconto la mia storia, le mie competenze e i miei valori',
+  twitterCard: 'summary_large_image',
+})
+
 </script>
