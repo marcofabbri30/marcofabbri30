@@ -40,7 +40,3 @@ definePageMeta({
   }
 }) 
 </script>
-
-<style scoped>
-/* Puoi aggiungere eventuali stili personalizzati qui */
-</style>
