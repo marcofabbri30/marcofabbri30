@@ -1,5 +1,26 @@
 <template>
-    <section class="relative  text-white py-40 md:py-60">
+   <section class="relative h-[calc(100vh-4rem)]">
+        <picture>
+          <source srcset="/home-xs.webp" media="(max-width: 640px)">
+          <img src="/public/home.webp" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover" >
+        </picture>
+        <div class="relative z-10 flex items-center justify-center h-full bg-black bg-opacity-50">
+          <div class="text-center">
+            <h1 class="text-5xl font-bold text-white">Benvenuti nel mio portfolio!</h1>
+            <h3 class="text-3xl font-bold text-white mt-4">Scopri le mie attività e i miei progetti.</h3>
+            <div class="mt-6">
+              <nuxt-link to="/chi-sono" class="bg-gray-900 hover:bg-gray-300 text-white hover:text-gray-900 font-bold py-3 px-5 rounded-full mr-2">
+                Scopri di più
+              </nuxt-link>
+              <nuxt-link to="/servizi" class="bg-gray-900 hover:bg-gray-300 text-white hover:text-gray-900 font-bold py-3 px-5 rounded-full mr-2">
+                Servizi
+              </nuxt-link>
+            </div>
+          </div>            
+        </div>
+    </section>
+
+    <!-- <section class="relative  text-white py-40 md:py-60">
     <picture>
       <source srcset="/hero-background-xs.webp" media="(max-width: 640px)">
       <source srcset="/hero-background-mobile.webp" media="(max-width: 767px)">
@@ -21,7 +42,7 @@
           </nuxt-link>
         </div>
       </div>
-    </section>
+    </section> -->
   </template>
   
   <script>

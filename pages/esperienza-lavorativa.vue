@@ -3,33 +3,20 @@
         <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 text-center">
             La mia esperienza lavorativa
         </h1>
-        <Timeline :value="events" align="left" class="customized-timeline"
-            :pt="{
-                opposite:{
-                    class: 'flex-0'
-                }
-            }"
-        >
-            <template #marker="slotProps">
-                <span class="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1" :style="{ backgroundColor: slotProps.item.color }">
-                    <i :class="slotProps.item.icon"></i>
-                </span>
-            </template>      
-            <template #content="slotProps">
-                <Card class="mt-3">
+            <div v-for="(item,index) in events">            
+                <Card :data-aos="getAosAnimation(index)" class="mt-10">
                     <template #title>
-                        <h2 class="text-2xl m-0 p-0">{{ slotProps.item.job }}</h2>                        
-                    </template>
-                    <template #subtitle>
-                        <h3 class="text-xl mb-2">{{ slotProps.item.company }}</h3>
-                        <p>{{ slotProps.item.date }}</p>
-                    </template>
-                    <template #content>
-                        <p></p>
-                    </template>
+                            <h2 class="text-2xl m-0 p-0">{{ item.job }}</h2>                        
+                        </template>
+                        <template #subtitle>
+                            <h3 class="text-xl mb-2">{{ item.company }}</h3>
+                            <p>{{ item.date }}</p>
+                        </template>
+                        <template #content>
+                            <p></p>
+                        </template>
                 </Card>
-            </template>
-        </Timeline>
+        </div>        
     </div>
 </template>
 
@@ -53,10 +40,36 @@ const events = ref([
     { job: 'Laurea Magistrale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2014 - 2017', icon: 'pi pi-book', color: '#d41317'},
     { job: 'Laurea Triennale in Ingegneria Biomedica',company: 'Università di Bologna', date: '2010 - 2014', icon: 'pi pi-book', color: '#d41317'},
 ]);
+
+function getAosAnimation(index) {
+    return index % 2 === 0 ? "fade-right" : "fade-left";
+}
 </script>
 
 <style scoped>
 
 @import "primeflex/primeflex.css";
+.events-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between cards */
+}
 
+.event-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.event-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10px; /* Adjust the distance from the card */
+    bottom: 0;
+    width: 2px; /* Thickness of the vertical line */
+    background-color: #000; /* Color of the vertical line */
+}
 </style>
