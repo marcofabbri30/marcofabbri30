@@ -27,8 +27,8 @@ import { ref } from "vue";
 useSeoMeta({
   title: 'Marco Fabbri - Esperienza lavorativa',
   ogTitle: 'Marco Fabbri - Esperienza lavorativa',
-  description: 'Project manager esperto con anni di esperienza nella gestione di progetti IT complessi, specializzato in pianificazione strategica, ottimizzazione dei processi e implementazione di soluzioni tecnologiche innovative per garantire risultati di successo e efficienza operativa',
-  ogDescription: 'Project manager esperto con anni di esperienza nella gestione di progetti IT complessi, specializzato in pianificazione strategica, ottimizzazione dei processi e implementazione di soluzioni tecnologiche innovative per garantire risultati di successo e efficienza operativa',
+  description: 'Project manager esperto e consulente IT con anni di esperienza nella gestione di progetti IT complessi, specializzato in pianificazione strategica, ottimizzazione dei processi e implementazione di soluzioni tecnologiche innovative per garantire risultati di successo e efficienza operativa',
+  ogDescription: 'Project manager esperto e consulente IT con anni di esperienza nella gestione di progetti IT complessi, specializzato in pianificazione strategica, ottimizzazione dei processi e implementazione di soluzioni tecnologiche innovative per garantire risultati di successo e efficienza operativa',
   twitterCard: 'summary_large_image',
 })
 

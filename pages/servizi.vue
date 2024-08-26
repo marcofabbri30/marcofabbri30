@@ -12,10 +12,10 @@
                     <img alt="user header" src="/public/servizi/1.webp" width="400" height="266"/>
                 </template>
                 <template #title>Project Management</template>
+                <template #subtitle>Pianificazione, Esecuzione e Consegna di Progetti di Successo</template>
                 <template #content>
                     <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
-                        quas!
+                        Con diversi anni di esperienza nel coordinare team multidisciplinari e nel gestire progetti complessi, mi impegno a garantire il rispetto delle scadenze, del budget e della qualità. Utilizzo metodologie agili e tradizionali per ottimizzare i processi e raggiungere gli obiettivi prefissati, adattandomi rapidamente alle esigenze dei clienti e del mercato.
                     </p>
                 </template>
             </Card>
@@ -24,10 +24,10 @@
                     <img alt="user header" src="/public/servizi/1.webp" width="400" height="266"/>
                 </template>
                 <template #title>Consulenza IT</template>
+                <template #subtitle>Strategie Tecnologiche per il Tuo Successo</template>
                 <template #content>
                     <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
-                        quas!
+                        Offro consulenza personalizzata per migliorare l'efficienza operativa e la sicurezza dei tuoi sistemi IT. Dalla valutazione delle infrastrutture esistenti all'implementazione di soluzioni innovative, il mio approccio è sempre orientato al risultato e al supporto della crescita del tuo business attraverso l'adozione delle tecnologie più adeguate.
                     </p>
                 </template>
             </Card>
@@ -36,10 +36,10 @@
                     <img alt="user header" src="/public/servizi/1.webp" width="400" height="266"/>
                 </template>
                 <template #title>Sviluppo software</template>
+                <template #subtitle>Soluzioni Software su Misura per le Tue Esigenze</template>
                 <template #content>
                     <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
-                        quas!
+                        Specializzato nello sviluppo di software personalizzati, dal frontend al backend, per aziende di diverse dimensioni e settori. Utilizzo tecnologie all'avanguardia per creare applicazioni scalabili, performanti e sicure che migliorano l'efficienza operativa e l'esperienza utente. Collaboro strettamente con i clienti per assicurare che ogni soluzione sia perfettamente in linea con le loro esigenze specifiche.
                     </p>
                 </template>            
             </Card>
